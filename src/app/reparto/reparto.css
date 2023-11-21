@@ -1,0 +1,48 @@
+.reparto__header{
+    color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(176, 61, 61);
+}
+.reparto__header img{
+   width: 80px;
+   height: 120px;
+}
+.reparto__info{
+    display: flex;
+    flex-direction: column;
+}
+.reparto__info h1{
+    font-size: 35px;
+}
+.reparto__info h2{
+    font-size: 20px;
+    cursor: pointer;
+}
+.reparto__tarjetas{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.reparto__info h2:hover{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(165, 158, 158);
+}
+.reparto__tarjetas h1{
+    color: white;
+    font-size: 25px;
+    padding-left: 50px;
+}
+.reparto__tarjetas__tarjeta{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
