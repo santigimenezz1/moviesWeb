@@ -4,6 +4,7 @@
       "rewrites":  [
         {"source": "/(./*)", "destination": "/"}
      ],
+
     "builds": [
       {
         "src": "package.json",
@@ -13,7 +14,7 @@
         "src": ".next/**/*",
         "use": "@vercel/static"
       }
-    ],
+    ]
     
       
   }
