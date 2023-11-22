@@ -25,10 +25,11 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "@next/next"
     ],
     "rules": {
-        "@next/next/no-async-client-component": true,
+        "@next/next/no-async-client-component": 1, // Cambié `true` a `1` para indicar advertencia
         '@next/next/no-img-element': 'off',
         'jsx-a11y/alt-text': 'off',
     }
